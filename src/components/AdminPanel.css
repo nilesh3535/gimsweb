@@ -1,0 +1,200 @@
+.navbar {
+  background-color: #84c225;
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-bars {
+  margin-left: 2rem;
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  overflow: hidden;
+  background-color: white;
+  border-right: 1px solid lightgray;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  z-index: 2;
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 4px 0px 4px 25px;
+  list-style: none;
+  height: 55px;
+}
+.nav-name {
+  list-style: none;
+  height: 22px;
+  padding-left: 42px;
+  font-weight: bold;
+  color: green;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #84c225;
+  color: white;
+  text-decoration: none;
+}
+#logout:hover {
+  background-color: #df4759;
+  color: white;
+  text-decoration: none;
+}
+.nav-menu-items {
+  padding: 0;
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #84c225;
+
+  width: 100%;
+  height: 87px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.logogroup {
+  display: flex;
+}
+#toggleicon {
+  color: #f5f5f5;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-left: -20px;
+}
+#togglecloseicon {
+  color: #f5f5f5;
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-left: 18px;
+}
+#logotext {
+  font-family: American Typewriter, serif;
+  font-weight: bold;
+  color: #f5f5f5;
+  font-size: 30px;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+#logoicon {
+  margin-left: 5px;
+  margin-right: 6px;
+  margin-top: 15px;
+  font-size: 35px;
+  color: rgb(118, 179, 28);
+  background-color: white;
+  border-radius: 10px;
+}
+span {
+  margin-left: 16px;
+}
+
+#qr {
+  color: #6739b7;
+  font-size: 35px;
+  width: 45px;
+}
+#locationlogo {
+  margin-left: 12px;
+  font-size: 24px;
+}
+
+.navbar__listlink {
+  display: flex;
+  color: black;
+  font-size: 20px;
+}
+.navbar__listlink:hover {
+  color: #f5f5f5;
+}
+#accounticon {
+  margin-right: 15px;
+}
+
+#accicon #accpic {
+  margin-right: 15px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#accounticon:hover {
+  background-color: lightgray;
+  border-radius: 50%;
+}
+#accicon {
+  font-size: 40px;
+  margin-top: 2px;
+}
+
+#sidelogotext {
+  font-family: American Typewriter, serif;
+  font-weight: bold;
+  color: #f5f5f5;
+  font-size: 30px;
+  text-decoration: underline;
+  margin-top: 25px;
+}
+#sidelogoicon {
+  margin-left: 38px;
+  margin-right: 6px;
+  margin-top: 15px;
+  font-size: 35px;
+  color: rgb(118, 179, 28);
+  background-color: white;
+  border-radius: 10px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  margin-left: -40px;
+  z-index: 1;
+}
+#out {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #df4759;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}

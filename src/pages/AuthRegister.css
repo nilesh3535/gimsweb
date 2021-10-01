@@ -1,0 +1,149 @@
+.reg-container {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 900px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  display: grid;
+  z-index: 1;
+}
+.reg-content-left {
+  background: linear-gradient(90deg, #84c225 0%, #84c225 100%);
+  border-radius: 10px 0 0 10px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.regform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#regsmileicon {
+  font-size: 30px;
+  color: yellow;
+  margin-right: 5px;
+}
+.regform p {
+  margin-left: 5px;
+  color: aqua;
+}
+.regform h2 {
+  display: flex;
+  font-size: 20px;
+  width: 80%;
+  margin-top: 11px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+.regform h1 {
+  font-size: 1rem;
+
+  width: 80%;
+  margin-top: 11px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+.regform-inputs {
+  width: 80%;
+}
+.regform-inputs p {
+  font-size: 0.8rem;
+  color: #f00e0e;
+}
+.adderr {
+  float: left;
+  margin-right: 16px;
+  font-size: 0.8rem;
+  color: #f00e0e;
+}
+.form-label {
+  display: inline-block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-right: 78px;
+  color: #fff;
+}
+.regform-label {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 10px;
+}
+.regform-input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+.regform-select {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+
+.regaddr-inputs {
+  margin-left: 80px;
+  width: 100%;
+  margin-top: 20px;
+}
+.regstate-input {
+  margin-right: 12px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 24%;
+  border: none;
+  margin-top: -20px;
+}
+
+.reginput-area {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  width: 100%;
+  border: none;
+}
+.regform-input,
+.reginput-area,
+.regstate-input::placeholder {
+  color: #595959;
+  font-size: 15px;
+}
+.regform-input-btn {
+  width: 80%;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.regform-input-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 176, 255) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  transition: all 0.4s ease-out;
+}
