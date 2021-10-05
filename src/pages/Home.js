@@ -20,7 +20,9 @@ class Home extends Component {
   }
 
   componentDidMount() {
-    Axios.get("https://gims-app.herokuapp.com/api/view-prod").then((res) => {
+    Axios.get("https://gims-app.herokuapp.com/api/view-prod", {
+      crossdomain: true,
+    }).then((res) => {
       const products = res.data;
       this.setState({ products });
     });
